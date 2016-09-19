@@ -1,0 +1,16 @@
+packages: [
+  "advanced-open-file"
+  "atom-beautify"
+  "base16-ocean-dark-spacegray"
+  "base16-tomorrow-night-eighties-syntax"
+  "cake-syntax"
+  "css-comb"
+  "emmet"
+  "file-icons"
+  "language-liquid"
+  "minimap"
+  "package-sync"
+  "spacegray-dark-ui"
+  "spacegray-eighties-ui"
+  "wakatime"
+]

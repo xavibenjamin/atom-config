@@ -1,0 +1,18 @@
+# Add stuff that isn't useful
+
+blob-store
+compile-cache
+dev
+storage
+.node-gyp
+.npm
+.apm
+
+# We add packages to the gitignore
+packages/**
+
+# But not package-sync
+!packages/package-sync
+
+# Privacy
+.apmrc

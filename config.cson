@@ -1,0 +1,33 @@
+"*":
+  "advanced-new-file":
+    showFilesInAutoComplete: true
+    suggestCurrentFilePath: true
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    fuzzyMatch: true
+  core:
+    openEmptyEditorOnStart: false
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+  editor:
+    fontFamily: "Operator Mono"
+    fontSize: 17
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "cdf71c46-82be-296b-31f2-ad61136bc9ad"
+  "one-dark-ui": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1474296975
+  welcome:
+    showOnStartup: false
