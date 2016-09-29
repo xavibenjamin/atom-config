@@ -7,6 +7,7 @@ packages: [
   "css-comb"
   "emmet"
   "file-icons"
+  "language-babel"
   "language-gitignore"
   "language-haml"
   "language-liquid"

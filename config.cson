@@ -26,6 +26,8 @@
     extensionsPath: "~/.atom/package-settings/emmet"
   "exception-reporting":
     userId: "cdf71c46-82be-296b-31f2-ad61136bc9ad"
+  "markdown-preview":
+    useGitHubStyle: true
   "one-dark-ui": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
