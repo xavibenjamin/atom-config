@@ -1,0 +1,6 @@
+{
+  "hamlc": {
+    "filters": "haml",
+    "extends": "html"
+  }
+}

@@ -22,12 +22,14 @@
     softWrap: true
     softWrapAtPreferredLineLength: true
     tabType: "soft"
+  emmet:
+    extensionsPath: "~/.atom/package-settings/emmet"
   "exception-reporting":
     userId: "cdf71c46-82be-296b-31f2-ad61136bc9ad"
   "one-dark-ui": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1474568228
+    lastInit: 1475078225
   welcome:
     showOnStartup: false
