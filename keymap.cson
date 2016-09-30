@@ -37,5 +37,5 @@
 'atom-text-editor[data-grammar="text hamlc"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
 
-'atom-text-editor[data-grammar="text html"]:not([mini])':
+'atom-text-editor[data-grammar="text html liquid"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
