@@ -6,8 +6,38 @@
     createDirectories: true
     createFileInstantly: true
     fuzzyMatch: true
+  autosave:
+    enabled: true
   core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".apm"
+      ".node-gyp"
+      "blob-store"
+      "compile-cache"
+      "storage"
+      ".asset-cache"
+      ".bundle"
+      ".sass-cache"
+      "coverage"
+      "log"
+      "tmp"
+      "build"
+      "pkg"
+      ".zeus.sock"
+      "_site"
+      ".gitkeep"
+      "dump.rdb"
+      ".rake_tasks~"
+      "*.o"
+    ]
     openEmptyEditorOnStart: false
+    projectHome: "/Users/ttimsmith/Sites"
     themes: [
       "spacegray-dark-ui"
       "base16-ocean-dark-spacegray"
@@ -29,9 +59,12 @@
   "markdown-preview":
     useGitHubStyle: true
   "one-dark-ui": {}
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1475263024
+    lastInit: 1475374170
   welcome:
     showOnStartup: false
