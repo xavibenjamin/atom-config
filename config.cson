@@ -38,6 +38,7 @@
     ]
     openEmptyEditorOnStart: false
     projectHome: "/Users/ttimsmith/Sites"
+    telemetryConsent: "limited"
     themes: [
       "spacegray-dark-ui"
       "base16-ocean-dark-spacegray"
@@ -65,6 +66,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1475374170
+    lastInit: 1476822681
   welcome:
     showOnStartup: false
