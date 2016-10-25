@@ -31,11 +31,14 @@
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
-'atom-text-editor[data-grammar="text haml"]:not([mini])':
+'atom-text-editor[data-grammar="text haml basic"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
 
 'atom-text-editor[data-grammar="text hamlc"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
 
 'atom-text-editor[data-grammar="text html liquid"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
