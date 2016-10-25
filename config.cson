@@ -6,6 +6,37 @@
     createDirectories: true
     createFileInstantly: true
     fuzzyMatch: true
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+      convert_quotes: "single"
+      default_beautifier: "CSScomb"
+      end_with_newline: true
+      indent_comments: false
+      indent_size: 2
+    erb:
+      beautify_on_save: true
+      indent_size: 2
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+      max_preserve_newlines: 3
+      wrap_attributes_indent_size: 2
+    markdown:
+      beautify_on_save: true
+    ruby:
+      beautify_on_save: true
+      indent_size: 2
+    scss:
+      beautify_on_save: true
+      convert_quotes: "single"
+      default_beautifier: "CSScomb"
+      indent_size: 2
+      no_lead_zero: true
+    svg:
+      beautify_on_save: true
+      indent_size: 2
   autosave:
     enabled: true
   core:
@@ -66,6 +97,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1476822681
+    lastInit: 1477406555
   welcome:
     showOnStartup: false
