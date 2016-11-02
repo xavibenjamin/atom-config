@@ -9,6 +9,7 @@
   "atom-beautify":
     css:
       beautify_on_save: true
+      configPath: "~/.atom/package-settings/csscomb/.csscomb.json"
       convert_quotes: "single"
       default_beautifier: "CSScomb"
       end_with_newline: true
@@ -17,6 +18,8 @@
     erb:
       beautify_on_save: true
       indent_size: 2
+    general:
+      _analyticsUserId: "78949e9f-ff32-4826-bcae-0d607685ab70"
     html:
       beautify_on_save: true
       end_with_newline: true
@@ -97,6 +100,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1477406555
+    lastInit: 1478056181
   welcome:
     showOnStartup: false
