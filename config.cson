@@ -21,15 +21,19 @@
     general:
       _analyticsUserId: "78949e9f-ff32-4826-bcae-0d607685ab70"
     html:
-      beautify_on_save: true
+      default_beautifier: "Pretty Diff"
       end_with_newline: true
       indent_size: 2
       max_preserve_newlines: 3
       wrap_attributes_indent_size: 2
+    js:
+      end_with_newline: true
+      indent_size: 2
     markdown:
-      beautify_on_save: true
+      default_beautifier: "Remark"
+      gfm: false
+      yaml: false
     ruby:
-      beautify_on_save: true
       indent_size: 2
     scss:
       beautify_on_save: true
@@ -100,6 +104,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1478056181
+    lastInit: 1480375136
   welcome:
     showOnStartup: false
