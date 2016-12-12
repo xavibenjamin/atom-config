@@ -75,12 +75,23 @@
       "*.o"
     ]
     openEmptyEditorOnStart: false
-    projectHome: "/Users/ttimsmith/Sites"
+    projectHome: "/Users/ttimsmith/Projects"
     telemetryConsent: "limited"
     themes: [
       "spacegray-dark-ui"
       "base16-ocean-dark-spacegray"
     ]
+    customFileTypes:
+      "source.js": [
+        "js.symlink"
+      ]
+      "source.git-config": [
+        "gitconfig.symlink"
+        "gitconfig.local.symlink"
+      ]
+      "source.shell": [
+        "zshrc.symlink"
+      ]
   editor:
     fontFamily: "Operator Mono"
     fontSize: 17
@@ -104,6 +115,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1480375136
+    lastInit: 1481514692
   welcome:
     showOnStartup: false
