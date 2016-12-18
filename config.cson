@@ -47,6 +47,17 @@
   autosave:
     enabled: true
   core:
+    customFileTypes:
+      "source.git-config": [
+        "gitconfig.symlink"
+        "gitconfig.local.symlink"
+      ]
+      "source.js": [
+        "js.symlink"
+      ]
+      "source.shell": [
+        "zshrc.symlink"
+      ]
     ignoredNames: [
       ".git"
       ".hg"
@@ -77,21 +88,6 @@
     openEmptyEditorOnStart: false
     projectHome: "/Users/ttimsmith/Projects"
     telemetryConsent: "limited"
-    themes: [
-      "spacegray-dark-ui"
-      "base16-ocean-dark-spacegray"
-    ]
-    customFileTypes:
-      "source.js": [
-        "js.symlink"
-      ]
-      "source.git-config": [
-        "gitconfig.symlink"
-        "gitconfig.local.symlink"
-      ]
-      "source.shell": [
-        "zshrc.symlink"
-      ]
   editor:
     fontFamily: "Operator Mono"
     fontSize: 17
@@ -108,13 +104,15 @@
     userId: "cdf71c46-82be-296b-31f2-ad61136bc9ad"
   "markdown-preview":
     useGitHubStyle: true
-  "one-dark-ui": {}
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1481514692
+    lastInit: 1482040123
   welcome:
     showOnStartup: false
