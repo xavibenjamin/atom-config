@@ -37,6 +37,7 @@
       indent_size: 2
     scss:
       beautify_on_save: true
+      configPath: "~/.atom/package-settings/csscomb/.csscomb.json"
       convert_quotes: "single"
       default_beautifier: "CSScomb"
       indent_size: 2
@@ -113,6 +114,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1482040123
+    lastInit: 1482954903
   welcome:
     showOnStartup: false
