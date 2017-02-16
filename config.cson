@@ -89,6 +89,10 @@
     openEmptyEditorOnStart: false
     projectHome: "/Users/ttimsmith/Projects"
     telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "material-palenight-syntax"
+    ]
   editor:
     fontFamily: "Operator Mono"
     fontSize: 17
@@ -117,6 +121,6 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1483742755
+    lastInit: 1487195474
   welcome:
     showOnStartup: false

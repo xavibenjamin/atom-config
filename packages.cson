@@ -1,9 +1,6 @@
 packages: [
   "advanced-open-file"
   "atom-beautify"
-  "base16-ocean-dark-spacegray"
-  "base16-tomorrow-night-eighties-syntax"
-  "cake-syntax"
   "css-comb"
   "emmet"
   "file-icons"
@@ -11,11 +8,10 @@ packages: [
   "language-gitignore"
   "language-haml"
   "language-liquid"
+  "material-palenight-syntax"
   "merge-conflicts"
   "minimap"
   "package-sync"
   "pigments"
-  "spacegray-dark-ui"
-  "spacegray-eighties-ui"
   "wakatime"
 ]
