@@ -30,7 +30,6 @@
       end_with_newline: true
       indent_size: 2
     markdown:
-      default_beautifier: "Remark"
       gfm: false
       yaml: false
     ruby:
@@ -115,12 +114,13 @@
   "one-dark-ui":
     layoutMode: "Compact"
     tabSizing: "Even"
+  pigments: {}
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1487195474
+    lastInit: 1489981122
   welcome:
     showOnStartup: false
