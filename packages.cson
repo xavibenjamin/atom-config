@@ -1,9 +1,12 @@
 packages: [
   "advanced-open-file"
   "atom-beautify"
+  "auto-update-packages"
   "css-comb"
+  "double-tag"
   "emmet"
   "file-icons"
+  "jekyll"
   "language-babel"
   "language-gitignore"
   "language-haml"
