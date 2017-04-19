@@ -111,16 +111,21 @@
     onChanges: true
   "markdown-preview":
     useGitHubStyle: true
+  minimap: {}
   "one-dark-ui":
     layoutMode: "Compact"
     tabSizing: "Even"
   pigments: {}
+  "theme-switcher":
+    syntaxThemeOne: "material-palenight-syntax"
+    syntaxThemeTwo: "one-light-syntax"
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1492013582
+    lastInit: 1492618415
   welcome:
     showOnStartup: false
+  wordcount: {}

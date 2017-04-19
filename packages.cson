@@ -16,5 +16,7 @@ packages: [
   "minimap"
   "package-sync"
   "pigments"
+  "theme-switcher"
   "wakatime"
+  "wordcount"
 ]
