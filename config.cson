@@ -44,6 +44,12 @@
     svg:
       beautify_on_save: true
       indent_size: 2
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+      "*.markdown"
+    ]
   autosave:
     enabled: true
   core:
@@ -118,7 +124,7 @@
   pigments: {}
   "theme-switcher":
     syntaxThemeOne: "material-palenight-syntax"
-    syntaxThemeTwo: "one-light-syntax"
+    syntaxThemeTwo: "base16-tomorrow-light-theme"
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
