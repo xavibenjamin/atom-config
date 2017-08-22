@@ -8,6 +8,7 @@ packages: [
   "file-icons"
   "jekyll"
   "language-babel"
+  "language-elixir"
   "language-gitignore"
   "language-haml"
   "language-liquid"
