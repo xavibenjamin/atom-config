@@ -8,7 +8,6 @@
     fuzzyMatch: true
   "atom-beautify":
     css:
-      beautify_on_save: true
       configPath: "~/.atom/package-settings/csscomb/.csscomb.json"
       convert_quotes: "single"
       default_beautifier: "CSScomb"
@@ -35,7 +34,6 @@
     ruby:
       indent_size: 2
     scss:
-      beautify_on_save: true
       configPath: "~/.atom/package-settings/csscomb/.csscomb.json"
       convert_quotes: "single"
       default_beautifier: "CSScomb"
@@ -119,7 +117,6 @@
     useGitHubStyle: true
   minimap: {}
   "one-dark-ui":
-    layoutMode: "Compact"
     tabSizing: "Even"
   pigments: {}
   "theme-switcher":
